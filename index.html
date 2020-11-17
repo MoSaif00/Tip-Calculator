@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tip Calculator</title>
+</head>
+
+<body>
+  <div id="app">
+      <form action="">
+        <!-- Heading of the app -->
+        <div class="heading">
+          <h1>Best Tip Calculator</h1>
+        </div>
+
+        <!-- Input of the amount of the bill -->
+        <div class="total-amount">
+          <label for="the-total-amount" > How much was your bill ?</label>
+          <select name="money-symbols" id="money-symbol">
+            <option value="€">€</option>
+            <option value="$">$</option>
+          </select>
+          <input type="text" name="totalamount" id="total-amount" placeholder="Enter the total amount.">
+        </div>
+
+        <!-- Input of the service rate -->
+        <div class="service-rate">
+          <label for="the-service-rate">How was Your service ?</label>
+          <select name="service-rate" id="service-rate">
+            <option class="dark-color-first-option" selected >-- choose an option --</option>
+            <option value="30">30% - Outstanding</option>
+            <option value="20">20% - Good</option>
+            <option value="15">15% - It was Ok</option>
+            <option value="10">10% - Bad</option>
+            <option value="5">5% - Terrible</option>
+          </select>
+        </div>
+
+        <!--Input of the number of the people who is sharing the bill -->
+        <div class="number-of-people">
+          <label for="number-people-sharing">How many people are sharing the bill ?</label>
+          <input type="text" name="numberofpeople" id="number-of-people" placeholder="How many of you sharing this bill ..">
+          <label for="people">People</label>
+        </div>
+
+        <!-- Button to calculate the tip -->
+        <div class="button">
+          <button id="calculate-button" type="button">
+            CALCULATE
+          </button>
+        </div>
+
+        <!-- to display the tip amount -->
+        <div class="display-tip">
+          <h2>Tip Amount :</h2>
+          <div class="amount">
+          <span id="amount-sign"></span><h3 id="tip-amount"> </h3>
+        </div>
+          <h2 id="plural-people">Each</h2>
+        </div>
+
+        <!-- The footer of the app -->
+        <div class="bill-detail">
+          <p>Total bill Amount + tip : <span id='total-amount-brief'></span> + <span id='tip-brief'></span> = <span id='total-brief'></span> </p>
+        </div>
+
+      </form>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

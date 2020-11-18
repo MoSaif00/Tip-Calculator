@@ -14,16 +14,13 @@
   - JS
 
 ## Features
+```sh
+
   - caclulate by Dollar or Euro currency
   - Sum The Total Amount + tip 
   - Calculate how much tip per each person 
-
-## Usage
-
-```sh
-- Open the Demo 
-- Enjoy diving in the Website
 ```
+
 
 ## Author
 

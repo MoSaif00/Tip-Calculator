@@ -1,7 +1,7 @@
 <h1 align="center">Tip Calculator  </h1>
 
 
-> Here you can see Uber UI Clone rebuilt again and responsive with all devices 
+> Tip Calculator can be used to calculate how much you have to pay a tip according to the service provided to you and how much you devided between your friends . 
 
 ### ✨ [Demo](https://mosaif00.github.io/Tip-Calculator/)
 
